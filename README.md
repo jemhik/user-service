@@ -51,21 +51,28 @@ Run the application:
 bash
 Copy code
 mvn spring-boot:run
+
 The application should now be running on http://localhost:8080.
 
-API Endpoints
+## API Endpoints
+
 The following API endpoints are available:
 
-POST /user/register: Register a new user by providing the necessary user details.
-POST /user/login: Authenticate a user by providing the email and password.
-GET /user/profile: Retrieve the user profile information for the authenticated user.
-POST /user/profile: Update the user profile information for the authenticated user.
-GET /user/logout: Log out the authenticated user.
-Contributing
+- POST /user/register: Register a new user by providing the necessary user details.
+- POST /user/login: Authenticate a user by providing the email and password.
+- GET /user/profile: Retrieve the user profile information for the authenticated user.
+- POST /user/profile: Update the user profile information for the authenticated user.
+- GET /user/logout: Log out the authenticated user.
+
+## Contributing
+
 Contributions to the user service application are welcome. If you find any bugs or want to suggest improvements, please open an issue or submit a pull request.
 
-License
-This project is licensed under the MIT License.
+## License
 
-Contact
-If you have any questions or inquiries, feel free to contact me at your-email@example.com.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## Contact
+
+If you have any questions or inquiries, feel free to contact me at sergij2003ua@gmail.com
+
